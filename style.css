@@ -1,0 +1,54 @@
+/* Generales */
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+}
+
+.contenedor-canvas{
+    max-width: 900px;
+    max-height: 700px;
+    overflow: auto;
+}
+
+canvas{
+    background-color: white;
+}
+
+/* Input IMG */
+.contenedor-input{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Color seleccionado */
+.contenedor-seleccionado{
+    color: white;
+    margin: 2rem;
+    font-size: 2rem;
+}
+
+.color-seleccionado{
+    text-align: center;
+    border: 1px solid white;
+    margin: 2rem;
+    width: 100px;
+    height: 100px;
+    background: rgba(0,0,0,0);
+}
+
+.color-hovered{
+    text-align: center;
+    border: 1px solid white;
+    margin: 2rem;
+    width: 100px;
+    height: 100px;
+    background: rgba(0,0,0,0);
+}
